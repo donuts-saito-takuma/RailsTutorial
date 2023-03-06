@@ -10,6 +10,10 @@ gem 'turbolinks'
 gem 'jbuilder'
 gem 'bootstrap-sass'
 gem 'bcrypt'
+gem 'webpacker', github: "rails/webpacker"
+gem 'faker'
+gem 'will_paginate'
+gem 'bootstrap-will_paginate'
 
 group :development, :test do
   gem 'sqlite3'
